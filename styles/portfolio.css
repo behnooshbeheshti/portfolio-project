@@ -25,7 +25,6 @@ h1 {
 }
 
 p {
-  font-family: var(--default-font-family);
   font-weight: normal;
 }
 
@@ -40,7 +39,8 @@ p {
 .hero h2 {
   font-family: var(--default-font-family);
   font-weight: normal;
-  line-height: 2px;
+  font-size: 28px;
+  line-height: 2;
 }
 
 .hero {
@@ -55,6 +55,5 @@ p {
   color: white;
   font-size: 18px;
   line-height: 27px;
-  padding: 20px 30px;
-  margin-top: 50px;
+  padding: 15px 30px;
 }
