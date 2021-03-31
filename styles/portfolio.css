@@ -7,6 +7,7 @@
 
 body {
   font-family: var(--default-font-family);
+  background-color: #fdeeed;
 }
 
 h1,
