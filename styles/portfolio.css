@@ -1,6 +1,6 @@
 :root {
   --branding-color: #e98849;
-  --secondary-color: #fbcd4c;
+  --secondary-color: #fdd155;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -39,6 +39,12 @@ img {
   border-radius: 30px;
 }
 
+.nav-item {
+  padding: 0 10px;
+  line-height: 25px;
+  display: inline-block;
+}
+
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
@@ -61,7 +67,7 @@ img {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content h1 {
