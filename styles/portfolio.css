@@ -12,10 +12,7 @@ body {
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
   color: black;
   font-family: var(--heading-font-family);
   font-weight: bold;
@@ -30,7 +27,7 @@ h2 {
   font-size: 58px;
 }
 
-h4 {
+h3 {
   font-size: 48px;
 }
 
@@ -72,7 +69,7 @@ img {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content {
@@ -119,6 +116,15 @@ img {
 
 .project-description {
   padding: 120px 60px;
+}
+
+.github-link {
+  color: black;
+  font-size: 14px;
+}
+
+.github-link:hover {
+  color: var(--branding-color);
 }
 
 footer {
@@ -171,8 +177,8 @@ footer .social-links a:hover {
     font-size: 38px;
   }
 
-  .hero {
-    padding: 80px 20px;
+  h3 {
+    font-size: 26px;
   }
 
   .project-description {
