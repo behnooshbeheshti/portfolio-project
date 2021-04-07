@@ -50,7 +50,7 @@ img {
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -189,5 +189,14 @@ footer .social-links a:hover {
   .content-container {
     text-align: center;
     padding: 0;
+  }
+
+  footer .email-link {
+    font-size: 18px;
+  }
+
+  .profile {
+    text-align: center;
+    max-width: 300px;
   }
 }
